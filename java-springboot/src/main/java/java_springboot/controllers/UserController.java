@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UserController {
     @GetMapping("/test")
     public String test() {
-        return "Conexão com a camada Controller do Java Spring Boot funcionando!";
+        return "Java Spring Boot rodando localmente com sucesso!";
     }
 }
